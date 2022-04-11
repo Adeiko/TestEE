@@ -27,3 +27,4 @@ pypsexec
 urllib3
 pynetbox
 hvac
+configargparse
