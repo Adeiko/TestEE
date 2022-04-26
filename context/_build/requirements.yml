@@ -1,6 +1,7 @@
 collections:
   - arista.eos
   - arubanetworks.aos_switch
+  - arubanetworks.aoscx
   - awx.awx
   - check_point.mgmt
   - cisco.aci
