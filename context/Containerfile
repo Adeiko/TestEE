@@ -26,9 +26,8 @@ FROM $EE_BASE_IMAGE
 USER root
 RUN pip3 install --upgrade pip setuptools
 RUN whoami
-RUN echo "    KexAlgorithms +diffie-hellman-group1-sha1" >> /etc/ssh/ssh_config
+RUN echo "    KexAlgorithms +diffie-hellman-group14-sha1" >> /etc/ssh/ssh_config
 RUN echo "    Ciphers +aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc" >> /etc/ssh/ssh_config
-RUN systemctl restart ssh
 
 COPY --from=galaxy /usr/share/ansible /usr/share/ansible
 
