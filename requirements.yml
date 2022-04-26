@@ -1,5 +1,6 @@
 collections:
   - arista.eos
+  - aos_switch
   - awx.awx
   - check_point.mgmt
   - cisco.aci
