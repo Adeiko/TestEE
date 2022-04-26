@@ -15,36 +15,37 @@ collections:
   - cisco.nxos
   - cisco.ucs
   - cloudscale_ch.cloud
-  - community.aws
+  # - community.aws
+  - community.network.aruba_command
   - community.crypto
-  - community.docker
+  # - community.docker
   - community.fortios
   - community.general
-  - community.google
-  - community.grafana
-  - community.kubevirt
-  - community.kubernetes
-  - community.libvirt
-  - community.mongodb
+  # - community.google
+  # - community.grafana
+  # - community.kubevirt
+  # - community.kubernetes
+  # - community.libvirt
+  # - community.mongodb
   - community.mysql
   - community.network
-  - community.okd
+  # - community.okd
   - community.postgresql
-  - community.proxysql
+  # - community.proxysql
   - community.routeros
-  - community.sops
+  # - community.sops
   - community.windows
-  - containers.podman
+  # - containers.podman
   - f5networks.f5_modules
   - fortinet.fortimanager
   - fortinet.fortios
-  - frr.frr
-  - hpe.nimble
-  - ibm.qradar
-  - inspur.sm
+  # - frr.frr
+  # - hpe.nimble
+  # - ibm.qradar
+  # - inspur.sm
   - junipernetworks.junos
-  - kubernetes.core
-  - splunk.es
-  - t_systems_mms.icinga_director
+  # - kubernetes.core
+  # - splunk.es
+  # - t_systems_mms.icinga_director
   - vyos.vyos
-  - wti.remote
+  # - wti.remote
