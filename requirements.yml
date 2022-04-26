@@ -15,7 +15,6 @@ collections:
   - cisco.nxos
   - cisco.ucs
   - cloudscale_ch.cloud
-  - community.network.aruba_command
   - community.crypto
   - community.fortios
   - community.general
@@ -29,3 +28,23 @@ collections:
   - fortinet.fortios
   - junipernetworks.junos
   - vyos.vyos
+  # - community.docker
+  # - community.google
+  # - community.grafana
+  # - community.kubevirt
+  # - community.kubernetes
+  # - community.libvirt
+  # - community.mongodb
+  # - community.okd
+  # - community.proxysql
+  # - community.sops
+  # - containers.podman
+  # - frr.frr
+  # - hpe.nimble
+  # - ibm.qradar
+  # - inspur.sm
+  # - kubernetes.core
+  # - splunk.es
+  # - t_systems_mms.icinga_director
+  # - wti.remote
+  # - community.aws
