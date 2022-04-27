@@ -13,7 +13,6 @@ dnspython
 python-consul
 pushbullet.py
 pingdom
-atomic
 pychef
 spotinst_sdk
 gunicorn
