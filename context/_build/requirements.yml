@@ -18,6 +18,7 @@ collections:
   - community.crypto
   - community.fortios
   - community.general
+  - community.grafana
   - community.mysql
   - community.network
   - community.postgresql
