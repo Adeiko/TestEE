@@ -4,6 +4,7 @@ collections:
   - arubanetworks.aoscx
   - awx.awx
   - check_point.mgmt
+  - check_point.gaia
   - cisco.aci
   - cisco.asa
   - cisco.intersight
